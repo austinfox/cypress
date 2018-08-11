@@ -289,7 +289,7 @@ create = (options = {}) ->
 
     bindTo: (contentWindow) ->
       restore()
-
+      debugger
       XHR    = contentWindow.XMLHttpRequest
       send   = XHR.prototype.send
       open   = XHR.prototype.open
@@ -449,7 +449,6 @@ create = (options = {}) ->
                 overrides[prop]
             set: (fn) ->
               fns[prop] = fn
-            configurable: true
           })
 
         options.onOpen(method, url, async, username, password)

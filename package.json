@@ -110,7 +110,7 @@
     "snap-shot-it": "^5.0.1",
     "stop-only": "2.1.0",
     "terminal-banner": "^1.0.0",
-    "typescript": "^2.3.4",
+    "typescript": "^2.1.1",
     "vagrant": "0.0.1",
     "vinyl-paths": "^2.1.0"
   },
@@ -138,5 +138,12 @@
     "runner",
     "spies",
     "stubs"
-  ]
+  ],
+  "dependencies": {
+    "ajv": "^6.0.0",
+    "dezalgo": "^1.0.3",
+    "marked": "^0.3.6",
+    "node-sass": "^4.9.3",
+    "sinon": "^1.4.0"
+  }
 }

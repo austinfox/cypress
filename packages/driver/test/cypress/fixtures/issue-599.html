@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+    (function(proxied) {
+      console.log('1')
+      XMLHttpRequest = function() {
+        console.log('here')
+        return null;
+      };
+      return XMLHttpRequest
+  })(XMLHttpRequest);
+  </script>
+<head>
+</head>
+<body>
+</body>
+</html>

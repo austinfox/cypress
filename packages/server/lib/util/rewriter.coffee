@@ -6,6 +6,7 @@ bodyRe      = /(<body.*?>)/i
 htmlRe      = /(<html.*?>)/i
 
 rewriteHtml = (html, domainName, wantsInjection, wantsSecurityRemoved) ->
+  debugger
   replace = (re, str) ->
     html.replace(re, str)
 
